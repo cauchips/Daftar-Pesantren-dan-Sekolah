@@ -4,7 +4,7 @@ Membuat Aplikasi Daftar Pesantren dan Sekolah dengan Android Studio
 # Sumber API
 https://github.com/nasrul21/data-pesantren-indonesia
 
-[https://github.com/wanrabbae/api-sekolah-indonesia](https://github.com/Vandemonica/api-sekolah-indonesia)
+https://github.com/Vandemonica/api-sekolah-indonesia
 
 # Credit
  [Azhar Rivaldi](https://rivaldi48.blogspot.com/)***
