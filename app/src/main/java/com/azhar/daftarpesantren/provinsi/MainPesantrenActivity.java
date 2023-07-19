@@ -1,5 +1,6 @@
 package com.azhar.daftarpesantren.provinsi;
 
+import android.annotation.SuppressLint;
 import android.app.ProgressDialog;
 import android.os.Bundle;
 import android.view.View;
@@ -61,6 +62,7 @@ public class MainPesantrenActivity extends AppCompatActivity {
                 .setPriority(Priority.HIGH)
                 .build()
                 .getAsJSONArray(new JSONArrayRequestListener() {
+                    @SuppressLint("NotifyDataSetChanged")
                     @Override
                     public void onResponse(JSONArray response) {
                         progressDialog.dismiss();

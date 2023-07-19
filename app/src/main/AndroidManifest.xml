@@ -21,6 +21,9 @@
             android:name=".kabupaten.KabupatenActivity"
             android:exported="false" />
         <activity
+            android:name=".provinsi.MainPesantrenActivity"
+            android:exported="false"/>
+        <activity
             android:name=".provinsi.MainActivity"
             android:exported="true">
             <intent-filter>
