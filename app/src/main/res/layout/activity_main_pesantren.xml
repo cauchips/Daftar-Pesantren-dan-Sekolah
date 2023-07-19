@@ -55,6 +55,7 @@
         </RelativeLayout>
 
     </androidx.appcompat.widget.Toolbar>
+
     <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -65,34 +66,51 @@
             android:descendantFocusability="blocksDescendants"
             android:focusable="true"
             android:focusableInTouchMode="true"
-            android:gravity="center"
             android:orientation="vertical">
 
-            <Button
-                android:id="@+id/btnPesantren"
+            <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:background="@drawable/bg_rounded"
-                android:text="Daftar Pesantren" />
+                android:layout_gravity="start"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="Daftar Provinsi"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="20dp" />
-
-            <Button
-                android:id="@+id/btnSekolah"
-                android:layout_width="192dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:background="@drawable/bg_rounded"
-                android:text="Cari Sekolah" />
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvDaftarProvinsi"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
 
         </LinearLayout>
 
+        <LinearLayout
+            android:id="@+id/linearNoData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ic_report"
+                app:tint="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Data Tidak Ditemukan!"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+        </LinearLayout>
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
-
-
 
 </LinearLayout>
