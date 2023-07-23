@@ -23,7 +23,11 @@
         <activity
             android:name=".main.MainPesantrenActivity"
             android:exported="false"/>
-        <activity android:name=".main.MainSekolahActivity"
+        <activity
+            android:name=".main.MainSekolahActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".sekolah.SekolahActivity"
             android:exported="false"/>
         <activity
             android:name=".main.MainActivity"
