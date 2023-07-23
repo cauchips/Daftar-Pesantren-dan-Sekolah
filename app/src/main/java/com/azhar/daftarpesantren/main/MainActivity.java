@@ -1,4 +1,4 @@
-package com.azhar.daftarpesantren.provinsi;
+package com.azhar.daftarpesantren.main;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,7 +7,6 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.azhar.daftarpesantren.provinsi.MainSekolahActivity;
 import com.azhar.daftarpesantren.R;
 
 public class MainActivity extends AppCompatActivity {

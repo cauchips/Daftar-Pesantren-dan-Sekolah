@@ -1,4 +1,4 @@
-package com.azhar.daftarpesantren.provinsi;
+package com.azhar.daftarpesantren.main;
 
 import android.annotation.SuppressLint;
 import android.app.ProgressDialog;

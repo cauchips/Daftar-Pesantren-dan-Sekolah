@@ -1,4 +1,4 @@
-package com.azhar.daftarpesantren.provinsi;
+package com.azhar.daftarpesantren.main;
 
 import android.content.Context;
 import android.content.Intent;

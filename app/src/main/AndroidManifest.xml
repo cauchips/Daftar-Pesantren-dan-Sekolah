@@ -21,10 +21,12 @@
             android:name=".kabupaten.KabupatenActivity"
             android:exported="false" />
         <activity
-            android:name=".provinsi.MainPesantrenActivity"
+            android:name=".main.MainPesantrenActivity"
+            android:exported="false"/>
+        <activity android:name=".main.MainSekolahActivity"
             android:exported="false"/>
         <activity
-            android:name=".provinsi.MainActivity"
+            android:name=".main.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

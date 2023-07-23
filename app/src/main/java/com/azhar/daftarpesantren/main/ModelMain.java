@@ -1,4 +1,4 @@
-package com.azhar.daftarpesantren.provinsi;
+package com.azhar.daftarpesantren.main;
 
 import java.io.Serializable;
 
